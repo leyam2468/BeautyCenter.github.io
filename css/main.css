@@ -1,0 +1,79 @@
+:root {
+    --color-one:#dc3545;
+}
+body {
+    height:  6000px;
+    background-color: black;
+}
+/**nav***/
+.bg-light {
+    background-color: #000000!important;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand span {
+    color: var(--pink);
+    font-weight: normal;
+}
+.navbar .navbar-toggler {
+    background-color: white;
+}
+.navbar .collapse .nav-item a{
+    color: white;
+    font-weight: bold;
+}
+.navbar .collapse .nav-item .active {
+    color: var(--pink);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:#e83e8ccf;
+}
+/***banner**/
+.banner {
+    background-image: url(../img/4.jpg);
+    height:80vh;
+    background-size:cover;
+}
+.banner .banner-info {
+    color: white;
+    width: 50%;
+    padding-top: 100px;
+}
+.banner .banner-info h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.banner .banner-info span {
+    background-color: var(--pink);
+    padding: 10px;
+}
+/***trend***/
+.trend {
+    color: white;
+    padding: 30px;
+    position: relative;
+}
+.trend .h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: var(--pink);
+}
+.trend .lead {
+    margin-bottom: 30px;
+}
+.trend span {
+    background-color: var(--pink);
+    padding: 10px;
+}
+.trend .trend-img {
+    display: inline-block;
+    margin-left: 20px;
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    float: right;
+    position: absolute;
+    top: -30px;
+}
