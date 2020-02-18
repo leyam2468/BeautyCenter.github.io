@@ -35,7 +35,7 @@ body {
     background-image: url(../img/0.jpg);
     height:80vh;
     background-size:cover;
-    filter: opacity(5%);
+    
 }
 
 .banner .banner-info {
